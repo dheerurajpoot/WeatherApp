@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="header">
+                <form class="w-search">
+                    <input type="text" class="search" placeholder="Search City">
+                    <button type="submit" class="btn">Search</button>
+                </form>
+            </div>
+            <div class="city-section">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3 class="city">Kanpur, India</h3>
+            </div>
+            <p class="date">Friday, March, </p>
+            <div class="condition">
+                <p class="weather-condition">Partially Cloudy</p>
+            </div>
+            <div class="weather-img">
+                <img class="w-img" src="images/cloudy.png" alt="">
+            </div>
+            <div class="temp">
+                <h2 class="tempreture"><span id="tempreture">21</span>&deg;C</h2>
+                <div class="feels-like">
+                    <p>Feels Like</p>
+                    <span id="feels-like">25&deg;C</span>
+                </div>
+            </div>
+            <div class="sun-time">
+                <div>
+                    <p>Sun Rise</p>
+                    <span class="sun-rise">6:00 AM</span>
+                </div>
+                <div>
+                    <p>Sun Set</p>
+                    <span class="sun-set">5:00 PM</span>
+                </div>
+            </div>
+            <div class="weather-items">
+                <div class="items">
+                    <p>Wind</p>
+                    <span class="wind">8 km/h</span>
+                </div>
+                <div class="items">
+                    <p>Visibility</p>
+                    <span class="visibility">12km</span>
+                </div>
+                <div class="items">
+                    <p>Humidity</p>
+                    <span class="humidity">30%</span>
+                </div>
+                <div class="items">
+                    <p>Pressure</p>
+                    <span class="pressure">1020 hPa</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            Developed by <a href="https://dheeru.org">Dheeru Rajpoot</a>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
