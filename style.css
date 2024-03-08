@@ -33,7 +33,7 @@ body{
     padding-bottom: 50px;
 }
 .search{
-    padding: 8px 12px;
+    padding: 12px 16px;
     border-radius: 30px;
     border: none;
     background: rgba(155, 154, 154, 0.175);
@@ -42,7 +42,7 @@ body{
     outline: none;
 }
 .btn{
-    padding: 6px 12px;
+    padding: 10px 15px;
     border-radius: 30px;
     background: blue;
     border: none;
